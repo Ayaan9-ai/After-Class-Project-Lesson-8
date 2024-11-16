@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Styling and Gradients</title>
+        <style>
+            body{
+                background-image: url("Milky.jpeg");
+                background-position: center;
+                background-size: cover;
+            }
+            h1{
+                background-color: blue;
+                color: black;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            p{
+                background-color: #4162a3;
+                color: black;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            img{
+                width: 300px;
+                height: 200px;
+                border: 10px ridge black;
+            }
+            #grad1{
+                height: 200px;
+                background-image: linear-gradient(to top left, #55a199, #5c52b3,
+                #96d97c, #d9d448);
+            }
+            #grad2{
+                height: 200px;
+                background-image: radial-gradient(#a19d33, #7b428a, #3b49a8, #599aab );
+            }
+        </style>
+    </head>
+
+    <body>
+        <center>
+            <h1>
+                About Space
+            </h1>
+
+            <br><br>
+
+            <p>
+                <b>Space is the vast, three-dimensional expanse that surrounds our planet
+                and extends in all directions. It is filled with countless celestial bodies,
+                including stars, planets, asteroids, and comets. In the simplest terms, 
+                space is the vast emptiness that exists between these objects, as well as 
+                the objects themselves.</b>
+            </p>
+
+            <br><br><br><br>
+
+            <img src="images (1).jfif">
+
+            <br><br><br><br>
+
+            <h1>Gradients</h1>
+
+            <div id="grad1">
+                <h2>This is Gradient 1</h2>
+            </div><br><br>
+
+            <div id="grad2">
+                <h2>This is Gradient 2</h2>
+            </div>
+
+        </center>
+    </body>
+</html>
